@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Student Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1>📚 Student Planner</h1>
+    <a href="index.html">Logout</a>
+  </nav>
+  <section class="dashboard">
+    <h2>Welcome, Mansi!</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Today's Tasks</h3>
+        <ul id="taskList"></ul>
+        <input type="text" id="taskInput" placeholder="Add new task..." />
+        <button onclick="addTask()">Add</button>
+      </div>
+      <div class="card">
+        <h3>Calendar</h3>
+        <input type="date" id="calendar" />
+      </div>
+      <div class="card">
+        <h3>Reminders</h3>
+        <label><input type="checkbox" /> Submit Assignment</label><br>
+        <label><input type="checkbox" /> Attend Class</label><br>
+        <label><input type="checkbox" /> Group Meeting</label>
+      </div>
+    </div>
+  </section>
+  <footer><p>© 2025 Mansi Aluna. All rights reserved.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html
